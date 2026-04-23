@@ -17,6 +17,10 @@ body{
     gap: 50px;
 }
 
+.logo{
+    height: 200px;
+}
+
 .selection-content{
     max-width: 340px;
     flex-wrap: wrap;
@@ -31,11 +35,17 @@ body{
     border: solid black 2px;
 }
 
+.selection-content .img:hover {
+    filter: grayscale(0);
+    border: 2px solid rgb(0, 97, 104);
+    cursor: pointer;
+}
+
 .name{
     color: white;
 }
 
 .description{
     color: white;
-
+    
 }
