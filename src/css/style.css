@@ -1,0 +1,41 @@
+body{
+    background-image: url('../img/Backgraud-Mansao.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.selection-container{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.selection-content{
+    max-width: 340px;
+    flex-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.selection-content img{
+    border-radius: 100%;
+    border: solid black 2px;
+}
+
+.name{
+    color: white;
+}
+
+.description{
+    color: white;
+
+}
