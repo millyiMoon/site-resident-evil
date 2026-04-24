@@ -1,4 +1,4 @@
-body{
+body {
     background-image: url('../img/Backgraud-Mansao.png');
     background-position: center;
     background-repeat: no-repeat;
@@ -8,7 +8,7 @@ body{
     justify-content: space-between;
 }
 
-.selection-container{
+.selection-container {
     width: 50%;
     display: flex;
     flex-direction: column;
@@ -17,11 +17,13 @@ body{
     gap: 50px;
 }
 
-.logo{
-    height: 200px;
+.logo {
+    height: 100px;
+    position: relative;
+    top: -100px;
 }
 
-.selection-content{
+.selection-content {
     max-width: 340px;
     flex-wrap: wrap;
     display: flex;
@@ -30,7 +32,7 @@ body{
     gap: 20px;
 }
 
-.selection-content img{
+.selection-content img {
     border-radius: 100%;
     border: solid black 2px;
 }
@@ -41,11 +43,61 @@ body{
     cursor: pointer;
 }
 
-.name{
-    color: white;
+.char-container {
+    width: 35%;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    border: white;
 }
 
-.description{
-    color: white;
-    
+.char-content {
+    width: 500px;
+    height: 700px;
+    background-image: url('../img/fundou.png');
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    border-radius: 18px;
+    position: absolute;
+    display: inline-block;
+  
+}
+
+.char-content .status{
+    display: flex;
+    display: inline-block;
+    height: 300px;
+    width: 100px;
+    color: rgb(255, 255, 255);
+    position: relative;
+    top: -100px;
+    padding: 30px;
+    font-size: 25px;
+
+}
+.char-content .habilidades {
+   display: flex;
+
+   
+
+}
+
+.char-content .personagem{
+    width: 50%;
+    display: inline;
+}
+
+.personagem .img {
+    /* height: 600px;
+    width: 50%; */
+}
+
+.char-content .info {
+    display: flex;
+    display: inline-block;
+    height: 300px;
+    width: 100px;
+
 }
